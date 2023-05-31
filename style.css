@@ -1,7 +1,14 @@
 
 *{
-    margin: 10px;
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgb(34, 33, 33); */
+}
+
+main{
+    margin: 0px;
     background-color: rgb(34, 33, 33);
+    padding: 0px 5%;
 }
 
 h1 {
@@ -13,10 +20,46 @@ h1 {
 
 }
 
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(114, 238, 189);
+    height: 40px;
+}
+
+nav > a {
+    color:#094CB0;
+    text-decoration: none;
+    margin-top: 10%;
+    margin: 0px 20px 5px;
+    padding: 0px;
+    background-color: rgb(114, 238, 189);
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    color: #F39C12;
+    border: 1px solid #F39C12;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fotos {
+    width: 33%;
+    height: 570px;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
 figure{
     text-align: center;
     color: cornsilk;
     font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    background-color: rgb(34, 33, 33);
 }
 
 section{
@@ -28,9 +71,25 @@ section{
     font-weight:lighter; 
 }
 
+
+.libertades{
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+
+}
+
 .lista{
     color: rgb(210, 237, 158);
     list-style-image: url(img/huella.png);
+}
+
+aside{
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 0px;
 }
 
 h3{
@@ -46,16 +105,22 @@ h3{
     color: rgb(191, 245, 245);
 }
 
+
 table{
-    border: 2px solid red;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #094cb05e;
+    text-align: center;
+
 }
-table tr td{
-    color: antiquewhite;
+ tr, td{
     border: 1px solid rgb(156, 252, 13);
+    padding: 5px;
+    margin: 20px;
 }
 
 th{
-    color: antiquewhite;
+    
     border: 1px solid rgb(107, 153, 37);
 }
 
@@ -67,3 +132,20 @@ caption{
 .columnas{
     background-color: aquamarine;
 }
+
+footer {
+    padding: 20px 15%;
+    background-color:azure;
+}
+
+h5{
+    text-align: right;
+}
+
+.mapa-fmvz{
+    display: inline-block;
+    text-align: right;
+    width: 10%;
+    height: 10%;
+}
+

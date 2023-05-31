@@ -30,7 +30,7 @@ section{
 
 .lista{
     color: rgb(210, 237, 158);
-    list-style-image: url(huella.png);
+    list-style-image: url(img/huella.png);
 }
 
 h3{

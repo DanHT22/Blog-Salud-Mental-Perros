@@ -167,6 +167,112 @@
                <br>
             </section>
 
+            <section class="formulario">
+                <br>
+                <form action="ejemplo.js" method="post" class=>
+                    <fieldset> 
+                        <legend>Encabezado de formulario</legend>
+                        <p>
+                            Nombre
+                            <input type="text" class="texto" size="40" title="esto es un ejemplo" name="nombre" id="nombre"  placeholder="Nombre del usuario" required>
+                        </p>
+                        <p>
+                            Apellido
+                            <input type="text" class="texto" size="40" title="esto es un ejemplo" name="apellido" id="apellido"  placeholder="Apellido del usuario" required>
+                        </p>
+
+                        <p>
+                            Mensaje
+                            <input type="text" minlength="10" maxlength="20" size="90%">
+                        </p>
+                        <p>
+                            Telefono
+                            <input type="tel" placeholder="numero telefonico">
+                        </p>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Cuenta</legend>
+                        <p class="texto">
+                            Usuario
+                            <input type="text" placeholder="usuario">
+                        </p>
+                        <p class="texto">
+                            Contraseña
+                            <input type="text" placeholder="contraseña">
+                        </p>
+                        <p class="texto">
+                            Correo electronico
+                            <input type="email" placeholder="@ejemplo.com">
+                        </p>
+                       
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                    <legend>Datos de tu perro</legend>
+                    <p class="texto">
+                        Nombre
+                        <input type="text" placeholder="Nombre del perro">
+                    </p>
+                    <p class="texto">
+                        Edad
+                        <input type="number" placeholder="Edad en años" step="any">
+                    </p>
+                    
+                    <p class="texto">
+                        fecha de nacimiento
+                        <input type="date" >
+                    </p>
+                    <p class="texto">
+                        Tamaño: 
+                        <input type="radio" name="respuesta" value="1"> chico
+                        <input type="radio" name="respuesta" value="2"> mediano
+                        <input type="radio" name="respuesta" value="3"> grande
+                        <input type="radio" name="respuesta" value="4"> gigante  
+                    </p>
+                    <p class="texto">
+                        Foto del perro
+                        <input type="file" accept=".jpg, .png">
+                    </p>
+                    <p class="texto">
+                        ¿Cuanta actividad realiza al dia?
+                        <input type="range" min="0" max="5" step="0.5" list="lista-rango">
+                        <datalist id="lista-rango">
+                            <option value="nada"></option>
+                            <option value="muy poco"></option>
+                            <option value="poco"></option>
+                            <option value="regular"></option>
+                            <option value="mucha"></option>
+                        </datalist>    
+                    </p>
+                    <p>
+                        Cuentanos mas de tu perro
+                        <textarea name="" id="" cols="100" rows="2" placeholder="añade informacion sobre tu perro"></textarea>
+                    </p>
+                    <label class="texto">
+                         ¿Cómo esta la salud mental de tu perro?
+                        <select name="" id="">
+                            <option value="null" selected>...</option>
+                            <option value="1">Buena</option>
+                            <option value="2">Regular</option>
+                            <option value="3">Mala</option>
+                            <option value="4">No podria definirlo</option>
+                        </select>
+                    </label>
+
+
+                    <label for="" class="texto"></label>
+
+                </fieldset>
+                     <!-- boton sencillo para enviar información-->
+                     <input type="submit" class="boton-enviar">
+
+
+                </form>
+                <br>
+            </section>
+
         
     </main>
   

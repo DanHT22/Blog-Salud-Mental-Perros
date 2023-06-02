@@ -49,14 +49,19 @@ nav > a:hover {
 }
 
 .fotos-perros {
-    width: 33%;
+    width: 32%;
     height: 570px;
     margin: 0px;
     padding: 0px;
     border: 0px;
-    text-align: justify;
     background-color: azure;
 }
+
+.fotos-perros:hover { 
+    border: 3px dotted #053a8a;
+    border-radius: 5px;   
+}
+
 
 figure{
     max-width: 100%;
@@ -256,6 +261,11 @@ th,td {
     
 }
 
+.fotos-juguetes:hover { 
+    border: 3px dotted rgb(23, 235, 235);
+    border-radius: 5px;   
+}
+
 .clase-juguetes{
     background-color: #172a46;
     margin-left: 40px;
@@ -296,7 +306,11 @@ th,td {
 
 .img-enfermedades{
     max-width: 100%;
-    padding-bottom: 10px;
+}
+
+.img-enfermedades:hover { 
+    border: 3px dotted #053a8a;
+    border-radius: 5px;   
 }
 
 .formulario{

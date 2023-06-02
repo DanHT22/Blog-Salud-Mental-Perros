@@ -18,6 +18,7 @@
         <a href="#libertades">5 Libertades</a>
         <a href="#bienestar">¿Cómo brindar bienestar?</a>
         <a href="#dia-perro"> ¿Cómo es un día de un perro?</a>
+        <a href="#juguetes"> Juguetes interactivos</a>
         <a href="#enfermedades"> Enfermedades mentales</a>
     </nav>
 
@@ -144,27 +145,45 @@
                     </tbody>               
                 </table>
                 <br>
-                <p>
-                    algunas idea de juguetes interactivos que puede realizar tu mismo para tus perro se muestran en las paginas siguientes: 
-                </p>
-                <br><br>
-                <iframe class="pagina1" src=https://www.handfie.com/juguetes-caseros-para-perros/01668/ width="600px"></iframe>
-                <iframe class="pagina2" src=https://www.nonstopdogwear.com/es/repositorio/7-diy-dog-games/  width="600px"></iframe>
             </section>
-            <br><br>
+
+            <section id="juguetes" class="juguetes">
+                <h3 class="titulo-juguetes"> Juguetes Interactivos</h3>
+
+                <p class="p-juguetes">
+                    Algunas ideas de juguetes interecativos pueden ser los siguientes:
+                </p>
+
+                <article class="img-jueguetes">
+
+                    <figure class="clase-juguetes"> 
+                        <img class="fotos-juguetes" src="img/juguete1.jpg" alt="juguete1">
+                        <img class="fotos-juguetes" src="img/juegute2.jpg" alt="juguete2">
+                        <!-- <img class="fotos-juguetes" src="img/jueguete3.jpg" alt="juguete3">
+                        <img class="fotos-juguetes" src="img/juguete4.jpg" alt="juguete4">      -->
+                    </figure>
+
+                </article>
+
+                <article class="pag-jueguetes">
+                    <!-- <iframe class="pagina-juguetes" src=https://www.handfie.com/juguetes-caseros-para-perros/01668/ width="600px"></iframe> -->
+                    <iframe class="pagina-jueguetes2" src=https://www.nonstopdogwear.com/es/repositorio/7-diy-dog-games/  width="450px" height="350px";></iframe>
+                </article>
+                
+            </section>
+            
 
             <section id="enfermedades" class="enfermedades">
-                <br>
+               
                 <h4 class="titulo-enfermedades">Enfermedades mentales en los perros</h4>
-                <br>
-                <p>
+              
+                <p class="p-enfermedades">
                     Los perros tienen enfermedades mentales y se parecen mucho a las de los humanos. Dentro de los transtornos que pueden padecer se encuentras la depresión, ansiedad y sindrome de disfunsión cognitiva  el cual puede provocar graves pérdidas de memoria y dificultades de aprendizaje, comparables a la enfermedad de Alzheimer en humanos.             
                 </p>
-                <br>
-                <img class="cognicion" src="img/cognicion.png" alt="">
-                <br>
+                
+                <img class="img-enfermedades" src="img/cognicion.png" alt="">
 
-                <p>
+                <p class="p-enfermedades">
                     De ahi la importancia de brindarle bienestar animal a nuestro perro desde un enfoque de salud mental. 
 
                 </p>
@@ -173,32 +192,43 @@
             </section>
 
             <section class="formulario">
-                <br>
-                <form action="ejemplo.js" method="post" class=>
-                    <fieldset> 
 
-                        <legend>Datos del Propietario</legend>
+                <h3 class="titulo-formulario"> Queremos conocerlos </h3>
 
-                        <label for="nombre-usuario" class="texto">
-                            Nombre
-                            <input id="nombre-usuario" type="texto" class="texto" size="40" title="esto es un ejemplo" name="nombre" id="nombre"  placeholder="Nombre del usuario" required>
-                        </label>
+                <p class="p-formulario">
+                    Porfavor ayudanos a llenar el siguiente formulario con los datos que se te piden.
+                </p>
 
-                        <label for="apellido-usuario" class="texto">
-                            Apellido
-                            <input id="apellido-usuario" type="text" class="texto" size="40" title="esto es un ejemplo" name="apellido" id="apellido"  placeholder="Apellido del usuario" required>
-                        </label>
-                      
-                       <label for="telefono-usuario">
-                            Telefono
-                            <input id="telefono-usuario" type="tel" placeholder="numero telefonico">
-                       </label>
+                <form class="form-formulario" action="ejemplo.js" method="post" >
+
+                    <fieldset class="bloques-formulario"> 
+
+                        <legend class="titulo-bloque"> Datos del Propietario </legend>
+
+                            <label for= "nombre-usuario" class="texto">
+                                 Nombre : 
+                                <input id="nombre-usuario" type="texto" class="texto" size="20" title="esto es un ejemplo" name="nombre" id="nombre"  placeholder="Nombre del usuario" required>
+                            </label>
+
+                            <label for="apellido-usuario" class="texto">
+                                Apellido :
+                                <input id="apellido-usuario" type="text" class="texto" size="20" title="esto es un ejemplo" name="apellido" id="apellido"  placeholder="Apellido del usuario" required>
+                            </label>
+                        
+                            <label for="telefono-usuario">
+                                Telefono :
+                                <input id="telefono-usuario" type="tel"
+                                size="20" placeholder="numero telefonico">
+                            </label>
+                            <label for="correo-usuario">
+                                Correo electronico :
+                                <input id="correo-usuario" type="email" 
+                                size="25" placeholder="@ejemplo.com">
+                            </label> 
                      </fieldset>
 
-                    <br>
-
-                    <fieldset>
-                        <legend>Cuenta</legend>
+                    <!-- <fieldset class="bloques-formulario">
+                        <legend class="titulo-bloque">Cuenta</legend>
 
                         <label for="nombre-usuario" class="texto">
                             Nombre de usuario
@@ -214,33 +244,31 @@
                             Correo electronico
                             <input id="correo-usuario" type="email" placeholder="@ejemplo.com">
                         </label>    
-                    </fieldset>
+                    </fieldset> -->
 
-                    <br>
+                    <fieldset class="bloques-formulario">
 
-                    <fieldset>
-
-                        <legend>Datos de tu perro</legend>
+                        <legend class="titulo-bloque"> Datos de tu perro </legend>
 
                         <label for="nombre-perro" class="texto">
-                            Nombre del perro
+                            Nombre del perro :
                             <input id="nombre-perro" type="text" placeholder="Nombre del perro">
                         </label>
 
                         <label for="edad-perro" class="texto">
-                            dad
+                            Edad :
                             <input id="edad-perro" type="number" placeholder="Edad en años" step="any">
                         </label>
 
                         <label for="fecha-perro" class="texto">
-                            fecha de nacimiento
+                            Fecha de nacimiento :
                             <input id="fecha-perro" type="date" >
                         </label>
                         
-                        <br>
+                        <br><br>
 
                         <label for="tamaño-perro" class="texto">
-                             Tamaño:  
+                             Tamaño :  
                             <input id= "tamaño-perro" type="radio"  name="respuesta" value="1"> chico
                             <input id="tamaño-perro" type="radio" name="respuesta" value="2"> mediano
                             <input id="tamaño-perro" type="radio" name="respuesta" value="3"> grande
@@ -255,7 +283,7 @@
                         <br>
 
                         <label for="actividad-perro" class="texto">
-                            ¿Cuanta actividad realiza al dia?
+                            ¿Cuánta actividad realiza al día?
                             <input id="actividad-perro" type="range" min="0" max="5" step="0.5" list="lista-rango">
                             <datalist id="lista-rango">
                                 <option value="nada"></option>
@@ -265,8 +293,6 @@
                                 <option value="mucha"></option>
                             </datalist>  
                         </label>
-
-                        <br>
 
                         <label id="mente-perro" class="texto">
                             ¿Cómo esta la salud mental de tu perro?
@@ -279,39 +305,38 @@
                            </select>
                        </label>
 
-                       <br>
+                       <br><br>
 
                         <label for="inf-perro" class="texto">
                             Cuentanos mas de tu perro
-                        <textarea name="" id="" cols="100" rows="2" placeholder="añade informacion sobre tu perro"></textarea>
+                        <textarea name="" id="" cols="100" rows="" placeholder="añade informacion sobre tu perro"></textarea>
                         </label>
+
+                       
 
                 </fieldset>
                      <!-- boton sencillo para enviar información-->
-                     <input type="submit" class="boton-enviar">
-
-
+                     <input type="submit" class="boton-enviar" >
                 </form>
-                <br>
             </section>
-
-        
     </main>
   
     <footer>
 
         <div class="contacto">
-            <a href="">Numero de contacto</a>
+            <a class="pie-pagina" href=""> Numero de contacto </a>55 - xx - xx - xx - xx
             <br>
-            <a href="">correo electronico</a>
+            <a  class="pie-pagina" href="mailto:as@ejemplo.com"> Correo Electronico: </a> perritos@ejemplo.com 
             <br>
-            <a href="">pagina web</a>
+            <a class="pie-pagina" href=""> Pagina Web </a> 
         </div>
-
-        <div class="mapa-fmvz">
-            <h5>Departamento de etologia FMVZ</h5>
+        <div class="mapa">
+            <h5 class="titulo-mapa"> Departamento de etologia FMVZ </h5>
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1744.2648882605708!2d-99.17801359606538!3d19.32934356234122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdepartamento%20de%20etologia%20fmvz%20unam!5e0!3m2!1ses!2smx!4v1685460678792!5m2!1ses!2smx" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <br>
+
+        <audio src="audio/AudioPerritos.mp3" controls autoplay></audio>
 
         <p class="copy">&copy 2023 DHT</p>
 

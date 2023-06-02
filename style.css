@@ -190,7 +190,6 @@ p{
     color: azure;
 }
 
-
 .titulo-dia-perro{
     text-align: center;
     color: rgb(135, 205, 23);
@@ -264,20 +263,17 @@ th,td {
 }
 
 .fotos-juguetes{    
-   height: 350px;    
+   height: 350px;
+   gap: 0%; 
+   margin-bottom: 15px; 
+    
 }
 
-    width: 500px;
-    height: 500px;
-    text-align: right;
-} */
-
-.pag-jueguetes{
+.pag-juguetes{
     display:inline-block;
     height: 300px;
-    
-    background-color: #F39C12;
 }
+
 
 .titulo-enfermedades{
     text-align: center;

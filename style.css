@@ -124,13 +124,18 @@ p{
 
 .lista{
     color: azure;
-    list-style-image: url(img/huella.png);
     text-align: justify;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     line-height: 1.5;
     font-weight:lighter;
     padding: 0px 5%;
     font-size: 20px; 
+    margin-left: 20px;
+}
+
+.lista-huella{
+    list-style-image: url(img/huella.png);
+    padding: 0px 5%;
     margin-left: 20px;
 }
 
@@ -440,6 +445,33 @@ audio{
     border: 3px solid #941b1b;
     padding: 8px;
 }
+
+.titulo-lista-mvz{
+    font-size: 25px;
+    padding: 15px;
+    text-align: justify;
+    color: rgb(202, 176, 8);
+    margin-left: 30px;
+    margin-top: 0px;
+
+}
+
+.lista-mvz-huella{
+    color: rgb(28, 28, 92);
+    list-style-image: url(img/huella.png); 
+}
+
+.lista-dos{
+    color: rgb(28, 28, 92);
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 0px 5%;
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
 
 
 

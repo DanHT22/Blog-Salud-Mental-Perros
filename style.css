@@ -424,6 +424,12 @@ audio{
     margin-top: 10px;
 }
 
+video{
+    width: 800px;
+    padding: 5%;
+    text-align: center;
+}
+
 .mapa{
     text-align: center;
     padding: 2%;
@@ -435,7 +441,7 @@ audio{
 }
 
 .tabla-dos{
-    padding: 10px 5% 10%;
+    padding: 10px 5% ;
     width: 90%;
     margin: 20px auto;
     text-align: center;

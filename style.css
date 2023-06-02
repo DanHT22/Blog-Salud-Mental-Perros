@@ -59,7 +59,8 @@ nav > a:hover {
 
 .fotos-perros:hover { 
     border: 3px dotted #053a8a;
-    border-radius: 5px;   
+    border-radius: 5px;
+    height: 585px; 
 }
 
 
@@ -266,11 +267,6 @@ th,td {
     
 }
 
-.fotos-juguetes:hover { 
-    border: 3px dotted rgb(23, 235, 235);
-    border-radius: 5px;   
-}
-
 .clase-juguetes{
     background-color: #172a46;
     margin-left: 40px;
@@ -278,17 +274,22 @@ th,td {
 }
 
 .fotos-juguetes{    
-   height: 350px;
-   gap: 0%; 
-   margin-bottom: 15px; 
-    
-}
+    height: 350px;
+    gap: 0%; 
+    margin-bottom: 15px; 
+     
+ }
+
+.fotos-juguetes:hover { 
+    border: 3px dotted rgb(23, 235, 235);
+    border-radius: 5px; 
+    height: 380px;       
+    }  
 
 .pag-juguetes{
     display:inline-block;
     height: 300px;
 }
-
 
 .titulo-enfermedades{
     text-align: center;
@@ -315,7 +316,8 @@ th,td {
 
 .img-enfermedades:hover { 
     border: 3px dotted #053a8a;
-    border-radius: 5px;   
+    border-radius: 5px; 
+    max-width: 100%;  
 }
 
 .formulario{
@@ -396,6 +398,7 @@ textarea{
 
 footer{
     background-color: rgb(229, 253, 230);
+    padding: 3%;
 }
 
 .contacto{
@@ -406,9 +409,13 @@ footer{
 }
 
 audio{
-    padding: 10px 5%;
-    
+    /* padding: 10px 5%; */
+    margin-left: 40%;
+    background-color: #F39C12;
+    border-radius: 10px;
+
 }
+    
 
 .copy {
     text-align: center;
@@ -418,11 +425,47 @@ audio{
     padding: 3%;
 }
 
+.p-adicional{
+    padding: 20px 5%;
+    color: #053a8a;
+
+
+}
+
 .horario-info{
     padding: 10px 5%;
     color: #053a8a;
     margin-top: 10px;
+    font-size: 20px;
 }
+
+.seccion-lista{
+    padding: 0px 2%;
+}
+
+.titulo-lista-mvz{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(202, 176, 8);
+    padding-left: 30px;
+}
+
+.lista-mvz-huella{
+    color: rgb(28, 28, 92);
+    list-style-image: url(img/huella.png); 
+}
+
+.lista-dos{
+    color: rgb(28, 28, 92);
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 0px 5%;
+    font-size: 20px; 
+    margin-left: 30px;
+}
+
 
 video{
     width: 800px;

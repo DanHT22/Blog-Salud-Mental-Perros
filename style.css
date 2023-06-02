@@ -82,7 +82,7 @@ p{
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     line-height: 1.5;
     font-weight:lighter;
-    padding: 0px 5%;
+    padding: 10px 5%;
     font-size: 20px; 
 }
 
@@ -363,12 +363,27 @@ textarea{
     margin-top: 10px;
 }
 
+.link-segunda-pag{
+    margin-top: 20px;
+   padding-bottom: 30px;
+
+}
+
+.link-pag{
+    padding: 10px 5%;
+    font-size: 20px;
+    color: #F39C12;
+}
+
 footer{
-    background-color: silver;
+    background-color: rgb(229, 253, 230);
 }
 
 .contacto{
     padding: 10px 5%;
+    text-align: center;
+    padding-top: 40px;
+    
 }
 
 audio{
@@ -376,18 +391,30 @@ audio{
     
 }
 
+.copy {
+    text-align: center;
+  }
+
+.titulo-mayor-info{
+    padding: 3%;
+}
+
+.horario-info{
+    padding: 10px 5%;
+    color: #053a8a;
+    margin-top: 10px;
+}
+
 .mapa{
-    text-align: end;
-    margin-right: 40px;
-    vertical-align: top;
+    text-align: center;
+    padding: 2%;
 }
 
 .titulo-mapa{
-    color: #031f48;
+    color: #053a8a;
     padding: 5px;
 }
+  
+ 
 
   
-  .copy {
-    text-align: center;
-  }

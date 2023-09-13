@@ -339,3 +339,506 @@
 </body>
 
 </html>
+
+<style>
+
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgb(34, 33, 33); */
+}
+
+main{
+    margin: 0px;
+    background-color: azure;
+    /* padding: 0px 5%; */
+}
+
+header{
+    background-color: azure;
+    margin: 0px;
+}
+/* Añadir sombra al titulo */
+/* anadir nueva tipografia */
+h1 {
+    color:rgb(16, 8, 110);
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 30px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+    /* background-color: rgb(114, 238, 189); */
+    background-color: azure;
+    height: 40px;
+}
+
+nav > a {
+    color:#053a8a;
+    text-decoration: none;
+    margin-top: 10%;
+    margin: 0px 20px 5px;
+    padding: 0px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    color: #F39C12;
+    border: 1px solid #F39C12;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fotos-perros {
+    width: 33%;
+    height: 570px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: azure;
+}
+
+.fotos-perros:hover { 
+    border: 3px dotted #053a8a;
+    border-radius: 5px;
+    height: 585px; 
+}
+
+
+figure{
+    text-align: center;
+    max-width: 100%;
+    color: cornsilk;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: azure;
+}
+
+figcaption{
+    text-align: center;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    font-style: oblique;
+}
+
+p{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 10px 5%;
+    font-size: 20px; 
+}
+
+.OMSA{
+    color: #053a8a;
+    padding-bottom: 20px;
+}
+
+
+.libertades{
+    background-color: #031f48;
+    padding: 0px 5%;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    
+    
+}
+
+.libertad{
+
+    text-align: right;
+    padding: 10px;
+}
+
+.titulo-lista{
+    font-size: 25px;
+    padding: 10px;
+    text-align: justify;
+    color: azure;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.lista{
+    color: azure;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 0px 5%;
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+.lista-huella{
+    list-style-image: url(../img/huella.png);
+    padding: 0px 5%;
+    margin-left: 20px;
+}
+
+.video{
+    display: grid;
+    padding: 10px;
+
+    
+    
+}
+
+.bienestar{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+.titulo-bienestar{
+    text-align: center;
+    color: rgb(135, 205, 23);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.p-bienestar{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 10px 5%;
+    font-size: 20px;
+    color: #053a8a; 
+}
+
+.cognicion{
+    background-color: #031f48;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.titulo-cognicion{
+    text-align: center;
+    color: rgb(205, 147, 23);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.p-cognicion{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 10px 5%;
+    font-size: 20px;
+    color: azure;
+}
+
+.titulo-dia-perro{
+    text-align: center;
+    color: rgb(135, 205, 23);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.p-dia-perro{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 10px 5%;
+    font-size: 20px;
+    color: #053a8a; 
+}
+
+.tabla-dia-perro{
+    width: 70%;
+    margin: 20px auto;
+    background-color:rgba(135, 205, 23, 0.087);
+    text-align: center;
+    color: #023075;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    font-size: 18px;   
+}
+
+th,td {    
+    border: 3px ;
+    padding: 2px;
+}
+
+.juguetes{
+    background-color: #031f48;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.titulo-juguetes{
+    text-align: center;
+    color: rgb(205, 147, 23);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.p-juguetes{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 10px 5%;
+    font-size: 20px;
+    color: azure;
+}
+
+.img-jueguetes{
+    display:inline-block;
+    
+}
+
+.clase-juguetes{
+    background-color: #172a46;
+    margin-left: 40px;
+   
+}
+
+.fotos-juguetes{    
+    height: 350px;
+    gap: 0%; 
+    margin-bottom: 15px; 
+     
+ }
+
+.fotos-juguetes:hover { 
+    border: 3px dotted rgb(23, 235, 235);
+    border-radius: 5px; 
+    height: 380px;       
+    }  
+
+.pag-juguetes{
+    display:inline-block;
+    height: 300px;
+}
+
+.titulo-enfermedades{
+    text-align: center;
+    color: rgb(135, 205, 23);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.p-enfermedades{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 10px 5%;
+    font-size: 20px;
+    color: #053a8a;
+    margin-bottom: 10px; 
+}
+
+.img-enfermedades{
+    max-width: 100%;
+}
+
+.img-enfermedades:hover { 
+    border: 3px dotted #053a8a;
+    border-radius: 5px; 
+    max-width: 100%;  
+}
+
+.formulario{
+    background-color: #031f48;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.titulo-formulario{
+    text-align: justify;
+    color: rgb(205, 147, 23);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding: 10px 5%;
+}
+
+.p-formulario{
+    color: #F39C12;
+}
+
+.form-formulario{
+    justify-content: space-evenly;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 10px 5%;
+    font-size: 16px;
+    color: azure;
+}
+
+.bloques-formulario{
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.titulo-bloque{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label > input {
+    padding: 6px;
+    text-align: justify;
+    margin-bottom: 10px;
+       
+}
+
+textarea{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+    padding: 6px;
+    font-size: 15px;
+    color: azure;
+}
+
+.boton-enviar{
+    font-size: 20px;
+    background-color: #F39C12;
+    margin-top: 10px;
+}
+
+.link-segunda-pag{
+    margin-top: 20px;
+   padding-bottom: 30px;
+
+}
+
+.link-pag{
+    padding: 10px 5%;
+    font-size: 20px;
+    color: #F39C12;
+}
+
+footer{
+    background-color: rgb(229, 253, 230);
+    padding: 3%;
+}
+
+.contacto{
+    padding: 10px 5%;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+audio{
+    /* padding: 10px 5%; */
+    margin-left: 40%;
+    background-color: #F39C12;
+    border-radius: 10px;
+
+}
+    
+
+.copy {
+    text-align: center;
+  }
+
+.titulo-mayor-info{
+    padding: 3%;
+}
+
+.p-adicional{
+    padding: 20px 5%;
+    color: #053a8a;
+
+
+}
+
+.horario-info{
+    padding: 10px 5%;
+    color: #053a8a;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.seccion-lista{
+    padding: 0px 2%;
+}
+
+.titulo-lista-mvz{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(202, 176, 8);
+    padding-left: 30px;
+}
+
+.lista-dos{
+    color: rgb(28, 28, 92);
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight:lighter;
+    padding: 0px 5%;
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+.lista-mvz-huella{
+    color: rgb(28, 35, 92);
+    list-style-image: url(../img/huella.png); 
+}
+
+
+video{
+    width: 800px;
+    padding: 5%;
+    text-align: center;
+}
+
+.mapa{
+    text-align: center;
+    padding: 2%;
+}
+
+.titulo-mapa{
+    color: #053a8a;
+    padding: 5px;
+}
+
+.tabla-dos{
+    padding: 10px 5% ;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.dos{
+    border: 3px solid #5a14c3;
+    padding: 8px;
+}
+
+
+</style>
